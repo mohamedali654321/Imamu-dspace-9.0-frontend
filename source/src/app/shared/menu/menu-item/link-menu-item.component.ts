@@ -39,6 +39,7 @@ export class LinkMenuItemComponent implements OnInit {
 
   ngOnInit(): void {
     this.hasLink = isNotEmpty(this.item.link);
+    
   }
 
   getRouterLink() {
@@ -54,6 +55,11 @@ export class LinkMenuItemComponent implements OnInit {
       this.router.navigate([this.getRouterLink()]);
     }
     event.stopPropagation();
+  }
+  ToggleShow(){
+const elementToBeHidden = document.
+querySelector('.dropdown-menu.show');
+elementToBeHidden.classList.toggle('hidden');
   }
 
 }

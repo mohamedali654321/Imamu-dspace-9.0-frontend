@@ -3585,15 +3585,15 @@
 // }
 
 @media (min-width: 768px) {
-  ::ng-deep html[dir="rtl"] {
-    ds-home-news {
-      ds-help-search {
-        .help-info .dropdown-menu {
-          transform: translate(12px, 39px) !important;
+    ::ng-deep html[dir="rtl"] {
+        ds-home-news {
+            ds-help-search {
+                .help-info .dropdown-menu {
+                    transform: translate(110px, 39px) !important;
+                }
+            }
         }
-      }
     }
-  }
 }
 
 
@@ -3953,31 +3953,32 @@
 }
 
 ::ng-deep html[dir="rtl"] ds-dynamic-lookup-relation-modal {
-  ds-help-search {
-    .help-info .dropdown-menu {
-      transform: translate(65px, 39px) !important;
-    }
+    ds-help-search {
+        .help-info .dropdown-menu {
+            transform: translate(210px, 39px) !important;
+        }
 
-    .tooltip-arrow {
-      left: 10% !important;
+        .tooltip-arrow {
+            left: 10% !important;
 
+        }
     }
-  }
 }
 
 
 ::ng-deep html[dir="ltr"] ds-dynamic-lookup-relation-modal {
-  ds-help-search {
-    .help-info .dropdown-menu {
-      transform: translate(-210px, 39px) !important;
-    }
+    ds-help-search {
+        .help-info .dropdown-menu {
+            transform: translate(-70px, 39px) !important;
+        }
 
-    .tooltip-arrow {
-      left: 90% !important;
+        .tooltip-arrow {
+            left: 90% !important;
 
+        }
     }
-  }
 }
+
 
 ::ng-deep {
 
@@ -3998,31 +3999,32 @@
 
 ::ng-deep html[dir="rtl"] {
 
-  ds-tabbed-related-entities-search {
-    .help-info .dropdown-menu {
-      transform: translate(85px, 39px) !important;
-    }
+    ds-tabbed-related-entities-search {
+        .help-info .dropdown-menu {
+            transform: translate(180px, 39px) !important;
+        }
 
-    .tooltip-arrow-left {
-      left: 22% !important;
+        .tooltip-arrow-left {
+            left: 22% !important;
+        }
     }
-  }
 }
 
 
 
 ::ng-deep html[dir="ltr"] {
 
-  ds-tabbed-related-entities-search {
-    .help-info .dropdown-menu {
-      transform: translate(-180px, 39px) !important;
-    }
+    ds-tabbed-related-entities-search {
+        .help-info .dropdown-menu {
+            transform: translate(-80px, 39px) !important;
+        }
 
-    .tooltip-arrow-left {
-      left: 78% !important;
+        .tooltip-arrow-left {
+            left: 78% !important;
+        }
     }
-  }
 }
+
 
 
 ::ng-deep html[dir="rtl"] {
@@ -6368,7 +6370,7 @@
 
 ::ng-deep {
   .nav-item.nav-link:hover {
-    background-color: #eee;
+    background-color: #7e7b7b;
   }
 
   ds-expandable-navbar-section .dropdown-toggle:focus,
@@ -7491,5 +7493,99 @@
     color: #fff;
     background-color: #495057;
     border-color: #495057;
+  }
+}
+
+
+::ng-deep{
+  .btn-danger{
+    color: #FFF !important;
+  }
+ds-search-label{
+    a{
+        margin-top: 10px !important;
+    }
+}
+} 
+
+
+
+::ng-deep html[dir="rtl"]{
+
+  .float-end{
+    float: left !important;
+    right: auto !important;
+  }
+
+
+  ngb-datepicker-navigation-select{
+    .form-select{
+    background-position: right 5.5rem center;
+    }
+  }
+
+
+
+  ds-dso-edit-menu{
+    margin: -1rem auto -1rem -1rem;
+  }
+
+    ds-base-item-page{
+      ds-dso-edit-menu{
+    margin: unset !important;
+  }
+  }
+
+.modal-header .btn-close {
+    margin: -1rem auto -1rem -1rem;
+}
+
+// ds-submission-form-section-add{
+//   .sections-dropdown-menu{
+//     transform: translate(-1345px, 40px) !important;
+//   }
+// }
+
+
+}
+::ng-deep{
+  ngb-modal-window{
+  .close{
+    margin: -80px 0 0 0 !important ;
+  }
+}
+}
+
+
+::ng-deep html[dir="rtl"]{
+[class^=orejime-]{
+text-align: right !important;
+}
+
+.orejime-AppItem-switch{
+  right: 0 !important;
+}
+.orejime-AppItem-input{
+  right: 0 !important;
+}
+
+.orejime-AppItem-label{
+margin-right: 60px !important;
+}
+.orejime-AppItem-fullDescription{
+  margin-right: 60px !important;
+}
+.orejime-Modal-closeButton{
+  text-align: left !important;
+  left: 1em !important;
+  right: auto !important;
+}
+}
+
+
+::ng-deep{
+    .hidden {
+    display: none;
+    visibility: hidden;
   }
 }

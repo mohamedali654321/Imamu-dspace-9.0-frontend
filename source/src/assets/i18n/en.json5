@@ -17229,6 +17229,10 @@
 'footer.link.copyrights':"All rights reserved to Imam Mohammad Ibn Saud Islamic University (IMSIU) 1445 H - 2025 G",
 "home.news.dspace7": "Digital repository in the Saudi Digital Library",
 
+"relationships.isInvestigatorOf.Person":"Investigators",
+"relationships.isDepartmentOf.Administration":"Departments (Administration)",
+"relationships.isSubOrgUnitOf":"Administration",
+
 
 }
 
